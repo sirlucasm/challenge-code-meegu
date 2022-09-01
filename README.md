@@ -43,8 +43,13 @@ docker-compose up --build
 ```
 
 ## Server Info
-API URL:
-[http://localhost:8080/api/v1](http://localhost:8080/api/v1)
+API URL: http://localhost:8080/api/v1
+
+[Swagger Docs](http://localhost:8080/api/v1/docs)
+
+[Postman Docs](https://documenter.getpostman.com/view/9453608/VUxPt6cR)
+
+[Postman Collection](https://www.getpostman.com/collections/c14fa89d09a5344a7331)
 
 ## Model de usuário
 <p>Quando armazenar dados de usuário, utilize o seguinte modelo:</p>
