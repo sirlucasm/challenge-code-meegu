@@ -62,27 +62,27 @@ export class UpdateUserDTO {
   @IsOptional()
   @Length(2, 100)
   @IsString()
-  name: string;
+  name?: string;
 
   @ApiPropertyOptional()
   @IsOptional()
   @IsDateString()
-  birthdate: Date;
+  birthdate?: Date;
 
   @ApiPropertyOptional()
   @IsOptional()
   @IsPostalCode('BR')
-  zipcode: string;
+  zipcode?: string;
 
   @ApiPropertyOptional()
   @IsOptional()
   @IsBoolean()
-  acceptedTerms: boolean;
+  acceptedTerms?: boolean;
 
   @ApiPropertyOptional()
   @IsOptional()
   @IsString()
-  document: string;
+  document?: string;
 
   @ApiPropertyOptional()
   @IsOptional()
@@ -107,5 +107,5 @@ export class UpdateUserDTO {
   @ApiPropertyOptional()
   @IsOptional()
   @IsDateString()
-  updatedAt: Date;
+  updatedAt?: Date;
 }
